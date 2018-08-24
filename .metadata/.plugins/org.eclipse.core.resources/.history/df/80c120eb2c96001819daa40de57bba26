@@ -1,0 +1,22 @@
+
+public class Date {
+
+	private String day ;
+	private String month ;
+	private int year ;
+	public Date() {
+		day = "Monday" ;
+		month="January";
+		year = 1995 ;
+	}
+	public void display() {
+		System.out.println(day);
+		System.out.println(month);
+		System.out.println(year);
+	}
+	
+		
+
+	
+
+}

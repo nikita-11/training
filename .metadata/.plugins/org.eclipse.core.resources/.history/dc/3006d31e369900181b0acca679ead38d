@@ -1,0 +1,23 @@
+package com.pojo;
+
+import java.util.Scanner;
+
+public class newTestEmployee {
+	public void main (String [] args) {
+		Scanner s= new Scanner(System.in) ;
+		System.out.println("Enter age");
+		int age = s.nextInt();
+		System.out.println("Enter name");
+		String name = s.next() ;
+		System.out.println("Enter Id");
+		int Id = s.nextInt();
+		System.out.println("Enter Salary");
+		int salary = s.nextInt();
+		
+		Employee emp = new Employee (Id, salary ,age, name) ;
+		emp.show() ;
+		
+		
+	}
+
+}

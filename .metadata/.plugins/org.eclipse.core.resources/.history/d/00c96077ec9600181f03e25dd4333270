@@ -1,0 +1,19 @@
+
+public class demo2 {
+	public static void main(String [] args) {
+		int [][] values = new int [2][] ;
+		
+		values[0] = new int [2] ;
+		values[1] = new int [1] ;
+		values[0][0] =12 ;
+		values[0][1] = 13 ;
+		values[1][0] = 4 ;
+		for(int[] value : values) {
+			System.out.println(value);
+		}
+		
+		
+		
+	}
+
+}

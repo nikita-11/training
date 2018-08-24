@@ -1,0 +1,18 @@
+package com.myabstract;
+
+public class circle extends Shape {
+	private int radius ;
+	public circle() {
+		radius =10 ;
+	}
+	public circle(int radius,String name) {
+		
+		this.radius =radius ;
+	}
+	@Override
+	public double area() {
+		// TODO Auto-generated method stub
+		return 3.14*radius*radius;
+	}
+
+}

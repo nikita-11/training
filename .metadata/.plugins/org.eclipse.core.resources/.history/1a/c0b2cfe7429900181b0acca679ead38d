@@ -1,0 +1,10 @@
+import com.pojo.Employee;
+
+public class TestEmployee {
+public static void main(String[] args) {
+	Employee emp = new Employee(123, 200000d, 32, "citi123") ;
+	//emp.display() ;
+	System.out.println(emp.toString());
+	
+}
+}

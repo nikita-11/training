@@ -1,0 +1,13 @@
+
+public class TestPerson {
+	public static void main(String[] args) {
+	//class name : ref_name
+		Person p ;
+		//ref_name = newCls_name 
+		p =new Person() ;
+		p.display();
+	}
+	//ref_name.name_of_fun() 
+	
+	
+}

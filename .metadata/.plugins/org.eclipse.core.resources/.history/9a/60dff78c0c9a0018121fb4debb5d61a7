@@ -1,0 +1,40 @@
+package com.pojo;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class DemoRead1 {
+	public static void main(String[] args) {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in)) ;
+		
+//		try {
+//			System.out.println("please enter name");
+//			String name = br.readLine();
+//			System.out.println("you entered+" + name);
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		try {
+			System.out.println("please enter value");
+			
+			int value = br.read();
+			System.out.println("please enter value2");
+			int value2 = br.read() ;
+			if(value>value2) {
+				System.out.println("bigger:" + value);
+				
+			}
+			else {
+				System.out.println("bigger:" + value2);
+			}
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+}
